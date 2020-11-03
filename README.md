@@ -5,3 +5,7 @@
 _File 1.js_: chứa hàm findOppositeNumber()
 
 _File 2.js_: chứa hàm merge2String()
+
+## Code Challenge
+
+Chứa đủ HTML, JS và CSS.
