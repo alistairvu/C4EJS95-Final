@@ -14,5 +14,3 @@ function merge2String(s1, s2) {
   result += longString.substring(shortString.length, longString.length);
   return result;
 }
-
-console.log(merge2String("abcd", "123"));
