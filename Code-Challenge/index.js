@@ -8,8 +8,6 @@ const cashPrizeIndex = Math.floor(Math.random() * 5);
 const cashPrize = cashPrizes[cashPrizeIndex];
 let attempts = 3;
 
-console.log(`The answer is ${answer}, and the prize is ${cashPrize}.`);
-
 function giveAnswer() {
   const currentGuess = userInput.value;
   let html = ``;
