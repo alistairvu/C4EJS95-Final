@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
+body {
+  margin: 0;
+  text-align: center;
+}
+
+/* Header */
+
+header {
+  margin: 0;
+  padding: 0.2rem 1rem 0.2rem 1rem;
+  font-family: "Itim", cursive;
+  background-color: #e9e581;
+  color: #646f6f;
+  border-bottom: 10px solid #de1b1b;
+}
+
+header h1 {
+  font-size: 3rem;
+}
+
+/* Main */
+main {
+  font-family: "Quicksand", sans-serif;
+}
+
+/* Intro text */
+.intro-txt {
+  padding: 25px 0px 25px 0px;
+  font-size: 1.2rem;
+}
+
+.game-input {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Game input */
+#user-input {
+  height: 2.5rem;
+}
+
+#guess-button {
+  background-color: #de1b1b;
+  color: white;
+  height: 2.5rem;
+  border: none;
+  border-radius: 2%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#guess-button[disabled] {
+  background-color: #646f6f;
+  color: #f9f3c5;
+}
+
+/* Display */
+
+#user-display {
+  padding: 25px 0px 25px 0px;
+  font-size: 1.2rem;
+}
+
+.correct-ans {
+  color: #1d8300;
+}
+
+.incorrect-ans {
+  color: #de1b1b;
+}

@@ -1,0 +1,36 @@
+<html>
+  <head>
+    <title>Lucky Number</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+      integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <h1>Lucky Number</h1>
+    </header>
+    <!-- Main -->
+    <main>
+      <div class="intro-txt">
+        <p>Guess a number from 1 to 10.</p>
+      </div>
+      <div class="game-input row">
+        <div class="col-xs-8">
+          <input
+            type="number"
+            id="user-input"
+            placeholder="Enter your guess..."
+          />
+          <button id="guess-button">CHECK</button>
+        </div>
+      </div>
+      <div id="user-display"></div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
